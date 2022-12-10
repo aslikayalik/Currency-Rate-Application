@@ -18,6 +18,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TSQL", "TSQL", "{5F5290BA-C
 		TSQLKodlari.sql = TSQLKodlari.sql
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinFormsApp", "WinFormsApp\WinFormsApp.csproj", "{78535E55-EA14-4F62-BA11-0489DFE5D09D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -44,6 +46,10 @@ Global
 		{933D5F0A-D6C3-4E60-A08C-693AC70C52D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{933D5F0A-D6C3-4E60-A08C-693AC70C52D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{933D5F0A-D6C3-4E60-A08C-693AC70C52D8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{78535E55-EA14-4F62-BA11-0489DFE5D09D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{78535E55-EA14-4F62-BA11-0489DFE5D09D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{78535E55-EA14-4F62-BA11-0489DFE5D09D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{78535E55-EA14-4F62-BA11-0489DFE5D09D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

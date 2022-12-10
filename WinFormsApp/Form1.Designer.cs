@@ -1,5 +1,5 @@
 ﻿
-namespace WinApp
+namespace WinFormsApp
 {
     partial class Form1
     {
@@ -29,25 +29,25 @@ namespace WinApp
         /// </summary>
         private void InitializeComponent()
         {
-            this.btn_jsonkurgu = new System.Windows.Forms.Button();
+            this.btn_Jsonkurgu = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // btn_jsonkurgu
+            // btn_Jsonkurgu
             // 
-            this.btn_jsonkurgu.Location = new System.Drawing.Point(37, 41);
-            this.btn_jsonkurgu.Name = "btn_jsonkurgu";
-            this.btn_jsonkurgu.Size = new System.Drawing.Size(154, 23);
-            this.btn_jsonkurgu.TabIndex = 0;
-            this.btn_jsonkurgu.Text = "Json Data Çek ve Kaydet";
-            this.btn_jsonkurgu.UseVisualStyleBackColor = true;
-            this.btn_jsonkurgu.Click += new System.EventHandler(this.btn_jsonkurgu_Click);
+            this.btn_Jsonkurgu.Location = new System.Drawing.Point(211, 51);
+            this.btn_Jsonkurgu.Name = "btn_Jsonkurgu";
+            this.btn_Jsonkurgu.Size = new System.Drawing.Size(175, 23);
+            this.btn_Jsonkurgu.TabIndex = 0;
+            this.btn_Jsonkurgu.Text = "Json Data Çek ve Kaydet";
+            this.btn_Jsonkurgu.UseVisualStyleBackColor = true;
+            this.btn_Jsonkurgu.Click += new System.EventHandler(this.btn_Jsonkurgu_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.btn_jsonkurgu);
+            this.Controls.Add(this.btn_Jsonkurgu);
             this.Name = "Form1";
             this.Text = "Form1";
             this.ResumeLayout(false);
@@ -56,7 +56,7 @@ namespace WinApp
 
         #endregion
 
-        private System.Windows.Forms.Button btn_jsonkurgu;
+        private System.Windows.Forms.Button btn_Jsonkurgu;
     }
 }
 

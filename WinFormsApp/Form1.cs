@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace WinApp
+namespace WinFormsApp
 {
     public partial class Form1 : Form
     {
@@ -17,7 +17,7 @@ namespace WinApp
             InitializeComponent();
         }
 
-        private void btn_jsonkurgu_Click(object sender, EventArgs e) // api servisimizin çalıştıracağı metot
+        private void btn_Jsonkurgu_Click(object sender, EventArgs e)
         {
             Core.BusinessLogicLayer BLL = new Core.BusinessLogicLayer();
             BLL.KurBilgileriniGuncelle();
